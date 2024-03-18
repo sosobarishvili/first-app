@@ -1,0 +1,118 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.counter {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttons button {
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 200ms;
+}
+
+.buttons button:active {
+  background-color: #000;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.checkbox .input-container {
+  width: 220px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.checkbox .input-container label {
+  padding: 10px;
+  font-weight: bold;
+  text-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+.checkbox .input-container .continue {
+  width: 150px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: 200ms;
+  margin-bottom: 15px;
+}
+
+.checkbox .input-container .continue:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 200ms;
+}
+
+.checkbox .input-container .continue:active {
+  background-color: #ffffff;
+}
+
+.checkbox .input-container .reset {
+  width: 150px;
+  background-color: #43c81e;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.checkbox .input-container .reset:hover {
+  background-color: #ffffff;
+  color: #43c81e;
+  transition: 200ms;
+}
+
+.checkbox .input-container .reset:active {
+  background-color: #38df0a;
+}

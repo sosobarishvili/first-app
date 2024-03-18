@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(65, 65, 65);
+}
+
+.whole-page {
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.todo-header {
+  font-size: 56px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 25px;
+  text-decoration-line: underline;
+  text-underline-offset: 40px;
+  font-style: italic;
+}
+
+.todolist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+  gap: 50px;
+}
+
+.todo-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 50px;
+}
+
+.todo-input {
+  max-width: 826px;
+  width: 560px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  position: relative;
+  left: 20px;
+}
+
+.addtodo-button {
+  width: 135px;
+  background-color: #4F4F4F;
+  color: #fff;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+  position: relative;
+  right: 30px;
+  cursor: pointer;
+}
+
+.todo-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.todo-list-container .todo-li {
+  max-width: 826px;
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  color: #FFF;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.remove-todo {
+  cursor: pointer;
+  background-color: #999999;
+  border-radius: 10px;
+}
+
+.trash-icon {
+  width: 30px;
+
+}
