@@ -107,6 +107,13 @@
   transition: 200ms;
 }
 
+.check-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  flex-wrap: nowrap;
+}
+
 .checkbox .input-container .reset:hover {
   background-color: #ffffff;
   color: #43c81e;

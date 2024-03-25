@@ -13,7 +13,7 @@ const Tabs = () => {
       <Route path="/counter" element={<Counter />} />
       <Route path="/checkbox" element={<CheckBox />} />
       <Route path="/wishlist" element={<CardList />} />
-      <Route path="wishlist/:productid" element={<Product />} />
+      <Route path="/product/:id" element={<Product />} />
       <Route path="todolist" element={<TodoForm />} />
       <Route path="*" element={<h1>Page Not Found</h1>} />
     </Routes>
