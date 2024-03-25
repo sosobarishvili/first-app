@@ -30,11 +30,9 @@ const Product = () => {
             <ul className="wishlist-product-ul">
               {product.images.map((item, index) => {
                 return (
-                  <>
-                    <li key={item.id} className="wishlist-product-li">
-                      <img onClick={() => handleImageClick(index)} className="wishlist-product-img" src={item} alt="product" />
-                    </li>
-                  </>
+                  <li key={index} className="wishlist-product-li">
+                    <img onClick={() => handleImageClick(index)} className="wishlist-product-img" src={item} alt="product" />
+                  </li>
                 )
               })}
             </ul>
